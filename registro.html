@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registro de Entrenador</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>Registrar Entrenador</h1>
+
+  <form id="registro-form">
+    <label>Nombre:
+      <input type="text" name="nombre" required />
+    </label>
+    <label>Región:
+      <input type="text" name="region" required />
+    </label>
+    <button type="submit">Registrar</button>
+  </form>
+
+  <div>
+    <h2>Selecciona 6 Pokémon</h2>
+    <div id="pokemon-catalogo"></div>
+    <div id="paginacion"></div>
+  </div>
+
+  <script type="module" src="js/registro.js"></script>
+</body>
+</html>

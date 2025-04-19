@@ -1,0 +1,16 @@
+[
+    {
+      "nombre": "Ash Ketchum",
+      "region": "Kanto",
+      "pokemones": [
+        {
+          "nombre": "pikachu",
+          "tipo": "electric",
+          "movimientos": [
+            { "nombre": "Thunderbolt", "efecto": "Deals damage" },
+            { "nombre": "Quick Attack", "efecto": "Deals damage" }
+          ]
+        }
+      ]
+    }
+  ]
